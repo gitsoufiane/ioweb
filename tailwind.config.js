@@ -9,6 +9,9 @@ export default {
     extend: {
       colors: {
         'bg-black': '#0d0d0d',
+        'faint-white': '#f3f3f3',
+        'medium-gray': '#C3C3C3',
+        onyx: '#181818',
       },
       fontFamily: {
         roboto: ['Roboto', 'sans-serif'],
