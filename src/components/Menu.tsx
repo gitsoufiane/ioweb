@@ -1,10 +1,10 @@
 import { NavLink } from 'react-router-dom';
 
-export function Header() {
+export function Menu() {
   return (
-    <header className="mb-16">
-      <ul className="flex flex-row item-center gap-16 justify-center">
-        <li className="">
+    <nav className="mb-52 relative z-[99]">
+      <ul className="flex flex-row justify-center gap-16 item-center">
+        <li>
           <NavLink to={'/'}>Home</NavLink>
         </li>
         <li>
@@ -14,6 +14,6 @@ export function Header() {
           <NavLink to={'/contact'}>Contact</NavLink>
         </li>
       </ul>
-    </header>
+    </nav>
   );
 }

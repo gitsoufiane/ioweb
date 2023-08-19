@@ -1,37 +1,55 @@
+import figmaIcon from '../../assets/figma.webp';
+
 export const techStackData = [
   {
-    cat: 'Dev & Desgin',
+    category: 'Dev',
     items: [
       {
-        name: '',
-        icon: '',
-        type: '',
+        name: 'Figma',
+        icon: figmaIcon,
         link: '',
       },
-      {
-        name: '',
-        icon: '',
-        type: '',
+            {
+        name: 'ReactJS',
+        icon: figmaIcon,
         link: '',
       },
-      {
-        name: '',
-        icon: '',
-        type: '',
+            
+            {
+        name: 'ReactJS',
+        icon: figmaIcon,
         link: '',
       },
-      {
-        name: '',
-        icon: '',
-        type: '',
+            {
+        name: 'ReactJS',
+        icon: figmaIcon,
         link: '',
       },
-      {
-        name: '',
-        icon: '',
-        type: '',
+            {
+        name: 'ReactJS',
+        icon: figmaIcon,
         link: '',
       },
     ],
   },
+    {
+    category: 'Design',
+    items: [
+          {
+        name: 'ReactJS',
+        icon: figmaIcon,
+        link: '',
+      },
+            {
+        name: 'ReactJS',
+        icon: figmaIcon,
+        link: '',
+      },
+                  {
+        name: 'ReactJS',
+        icon: figmaIcon,
+        link: '',
+      },
+    ],
+  }
 ];
