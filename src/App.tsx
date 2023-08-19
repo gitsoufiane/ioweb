@@ -15,7 +15,7 @@ function App() {
       element: <Home />,
     },
     {
-      path: '/teckstack',
+      path: '/techstack',
       element: <TechStack />,
     },
   ]);
