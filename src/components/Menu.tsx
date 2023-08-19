@@ -1,19 +1,25 @@
 import { NavLink } from 'react-router-dom';
+import { Navbar } from 'flowbite-react';
 
 export function Menu() {
   return (
-    <nav className="mb-52 relative z-[99]">
-      <ul className="flex flex-row justify-center gap-16 item-center">
-        <li>
+    <Navbar fluid rounded>
+      <Navbar.Brand></Navbar.Brand>
+      <Navbar.Toggle />
+      <Navbar.Collapse>
+        <Navbar.Link>
           <NavLink to={'/'}>Home</NavLink>
-        </li>
-        <li>
+        </Navbar.Link>
+        <Navbar.Link>
+          <NavLink to={'/about'}>About</NavLink>
+        </Navbar.Link>
+        <Navbar.Link href="#">
           <NavLink to={'/techstack'}>TechStack</NavLink>
-        </li>
-        <li>
+        </Navbar.Link>
+        <Navbar.Link href="#">
           <NavLink to={'/contact'}>Contact</NavLink>
-        </li>
-      </ul>
-    </nav>
+        </Navbar.Link>
+      </Navbar.Collapse>
+    </Navbar>
   );
 }
