@@ -3,7 +3,7 @@ import { ReactQueryDevtools } from '@tanstack/react-query-devtools';
 import { useRoutes } from 'react-router-dom';
 import { TechStack } from './pages/TechStack';
 import { Home } from './pages/Home';
-import { Header } from './components/Header';
+import { Menu } from './components/Menu';
 import { Layout } from './components/Layout';
 // Create a client
 const queryClient = new QueryClient();
@@ -22,7 +22,7 @@ function App() {
   return (
     <QueryClientProvider client={queryClient}>
       <Layout>
-        <Header />
+        <Menu />
         {routes}
       </Layout>
       <ReactQueryDevtools initialIsOpen={false} />
